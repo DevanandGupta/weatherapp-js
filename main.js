@@ -4,7 +4,7 @@ let weathertype = document.getElementById('weathertype');
 
 function citysubmit() {
     let cityname = document.getElementById('mycity').value;
-    // let cityname = "jabalpur";
+    // let cityname = "jaipur";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=a5905030ca9c50c3a516d13d5fd3bd59`
     // console.log(url);
     document.getElementById('displaycityname').innerHTML = cityname;
